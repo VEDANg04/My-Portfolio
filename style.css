@@ -214,3 +214,59 @@ nav .social-links a {
 nav .social-links a:hover {
     color: #555; /* Adds a simple grey hover effect */
 }
+
+/* ======== CONTACT SECTION STYLING ======== */
+
+.contact-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 600px;
+    margin: -15px auto 30px auto; /* Pulls it closer to the title */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    font-size: 1rem;
+    padding: 12px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #f4f3f0;
+    font-family: Arial, sans-serif; /* Ensures font matches */
+}
+
+.btn-submit {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000;
+    background-color: #f3c153; /* Mustard yellow */
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #e0b04c;
+}
